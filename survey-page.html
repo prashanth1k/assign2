@@ -7,6 +7,7 @@
     <div class="subtitle">
       Thank you for taking the time to help us improve the platform
     </div>
+    <div class="container">
     <form>
       <div class="content">
         <div class="inputBox">
@@ -16,6 +17,7 @@
             type="text"
             name="name"
             placeholder="Enter your name"
+            class="inputText"
           />
         </div>
 
@@ -26,6 +28,7 @@
             type="email"
             name="email"
             placeholder="Enter your email"
+            class="inputText"
           />
         </div>
         <div class="inputBox">
@@ -35,11 +38,12 @@
             type="number"
             name="age"
             placeholder="Enter your age"
+            class="inputText"
           />
         </div>
         <div class="inputBox">
           <label>Which option best describes your current role?</label><br />
-          <select required>
+          <select required class="inputText">
             <option value="" disabled selected>Select current role</option>
             <option value="Student">Student</option>
             <option value="Full Time Job">Full Time Job</option>
@@ -65,7 +69,7 @@
 
         <div class="inputBox">
           <label>What is your favorite feature of freeCodeCamp? </label><br />
-          <select required>
+          <select required class="inputText">
             <option value="" disabled selected>Select an option</option>
             <option value="Challenges">Challenges</option>
             <option value="Projects">Projects</option>
@@ -135,5 +139,6 @@
         <div class="inputBox"><button type="submit">Submit</button></div>
       </div>
     </form>
+  </div>
   </body>
 </html>
